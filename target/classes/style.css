@@ -1,0 +1,10 @@
+.scroll-pane{-fx-background-color:transparent;-fx-padding:0;}
+.scroll-pane > .viewport{-fx-background-color:transparent;}
+.scroll-pane > .corner{-fx-background-color:transparent;}
+.scroll-bar{-fx-background-color:transparent;-fx-padding:0;}
+.scroll-bar:vertical{-fx-pref-width:8;}
+.scroll-bar > .track,.scroll-bar > .track-background{-fx-background-color:transparent;-fx-border-color:transparent;}
+.scroll-bar > .thumb{-fx-background-color:#1d4a74;-fx-background-radius:4;-fx-background-insets:0;}
+.scroll-bar > .increment-button,.scroll-bar > .decrement-button{-fx-padding:0;-fx-pref-height:0;-fx-pref-width:0;-fx-opacity:0;}
+.scroll-bar > .increment-button > .increment-arrow,.scroll-bar > .decrement-button > .decrement-arrow{-fx-padding:0;-fx-shape:" ";}
+.button:focused{-fx-background-color:transparent;}
